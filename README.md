@@ -45,7 +45,7 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
     (Anda harus mencari minimal 7 gambar CAPTCHA. Tampilkan 1 gambar CAPTCHA saja pada 1 sesi permainan. Gambar CAPTCHA dapat seolah-olah di-refresh untuk mengganti gambar CAPTCHA)
     - Rule 13 – Your password must include a leap year
     - Rule 14 – 🐔 Paul has hatched ! Please don’t forget to feed him. He eats <b><i>X</i></b> 🐛 every <b><i>Y</i></b> second <br>
-    (Emoji telur dari rule 13 digantikan dengan emoji ayam. Setiap <b><i>X</i></b> detik harus terdapat >= <b><i>Y</i></b> emoji ulat. Jika dalam <b><i>X</i></b> detik tersebut terdapat < <b><i>Y</i></b> ulat, pemain dinyatakan kalah)
+    (Emoji telur dari rule 11 digantikan dengan emoji ayam. Setiap <b><i>X</i></b> detik harus terdapat >= <b><i>Y</i></b> emoji ulat. Jika dalam <b><i>X</i></b> detik tersebut terdapat < <b><i>Y</i></b> ulat, pemain dinyatakan kalah)
     - Rule 15 – A sacrifice must be made. Pick <b><i>X</i></b> letters that you will no longer be able to use
     - Rule 16 – Your password must contain one of the following words: I want IRK | I need IRK | I love IRK
     - Rule 17 – At least <b><i>X</i></b>% of your password must be in digits
