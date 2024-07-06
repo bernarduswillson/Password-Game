@@ -1,10 +1,10 @@
 # The Password Game
 > Task Seleksi Lab IRK created by bewe
 
-versi 4 Juli 2024
+versi 7 Juli 2024
 
 ## 💡 Latar Belakang
-Dalam era digital saat ini, keamanan informasi pribadi semakin menjadi perhatian utama. Salah satu aspek penting dalam menjaga keamanan informasi adalah menggunakan kata sandi yang kuat dan sulit ditebak. Demi mengedukasi dan menghibur penggunanya sekaligus, "Password Game" hadir sebagai solusi yang menarik. Game ini menantang pemain untuk membuat atau menentukan kata sandi yang rumit sesuai dengan ketentuan yang diminta. Namun, game ini masih memiliki beberapa kekurangan dan memiliki potensi yang besar untuk dikembangkan. Beberapa aspek yang harus ditangani adalah seperti kurangnya keanekaragaman kata sandi, waktu tunggu yang tidak efektif, ketidakjelasan petunjuk dan feedback, pengembangan sistem skor dan peringkat yang kurang komprehensif, dan masih banyak lagi.
+Dalam era digital saat ini, keamanan informasi pribadi semakin menjadi perhatian utama. Salah satu aspek penting dalam menjaga keamanan informasi adalah menggunakan kata sandi yang kuat dan sulit ditebak. Demi mengedukasi dan menghibur penggunanya sekaligus, "Password Game" hadir sebagai solusi yang menarik. Game ini menantang pemain untuk membuat atau menentukan kata sandi yang rumit sesuai dengan ketentuan yang diminta. Namun, game ini masih memiliki beberapa kekurangan dan memiliki potensi yang besar untuk dikembangkan. Beberapa aspek yang harus ditangani adalah seperti kurangnya keanekaragaman kata sandi, waktu tunggu yang tidak efektif, ketidakjelasan petunjuk dan feedback, pengembangan sistem skor dan peringkat yang kurang komprehensif, tampilan yang kurang menarik, dan masih banyak lagi.
 
 <div align=center>
 <img src="./img/thumbnail.png">
@@ -40,14 +40,14 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
     - Rule 10 – Oh no! Your password is on fire 🔥. Quick, put it out! <br>
     (Emoji api akan “membakar” 1 huruf (menghapus huruf dan menggantikannya dengan emoji api) setiap <b><i>X</i></b> detik dimulai dari huruf terakhir. Api tidak akan berhenti membakar sampai semua emoji api pada textfield sudah dihapus. Perlu diperhatikan bahwa api dapat secara random muncul kembali kapanpun dan pemain perlu menghapusnya)
     - Rule 11 – Your password must include this CAPTCHA <br>
-    (Anda harus mencari minimal 5 gambar CAPTCHA. Tampilkan 1 gambar CAPTCHA saja pada 1 sesi permainan. Gambar CAPTCHA dapat seolah-olah di-refresh untuk mengganti gambar CAPTCHA)
+    (Anda harus mencari minimal 7 gambar CAPTCHA. Tampilkan 1 gambar CAPTCHA saja pada 1 sesi permainan. Gambar CAPTCHA dapat seolah-olah di-refresh untuk mengganti gambar CAPTCHA)
     - Rule 12 – Your password must include a leap year
     - Rule 13 – 🥚 This is my chicken Paul. He hasn’t hatched yet. Please put him in your password and keep him safe <br>
     (Pastikan emoji telur tidak terhapus. Kalau terhapus, pemain dinyatakan kalah)
     - Rule 14 – A sacrifice must be made. Pick <b><i>X</i></b> letters that you will no longer be able to use
     - Rule 15 – Your password must contain one of the following words: I want IRK | I need IRK | I love IRK
     - Rule 16 – 🐔 Paul has hatched ! Please don’t forget to feed him. He eats three 🐛 every minute <br>
-    (Emoji telur dari rule 12 digantikan dengan emoji ayam. Setiap <b><i>X</i></b> menit harus terdapat >= <b><i>Y</i></b> emoji ulat. Jika dalam <b><i>X</i></b> menit tersebut terdapat < <b><i>Y</i></b> ulat, pemain dinyatakan kalah)
+    (Emoji telur dari rule 13 digantikan dengan emoji ayam. Setiap <b><i>X</i></b> menit harus terdapat >= <b><i>Y</i></b> emoji ulat. Jika dalam <b><i>X</i></b> menit tersebut terdapat < <b><i>Y</i></b> ulat, pemain dinyatakan kalah)
     - Rule 17 – At least <b><i>X</i></b>% of your password must be in digits
     - Rule 18 – Your password must include the length of your password
     - Rule 19 – The length of your password must be a prime number
@@ -124,4 +124,4 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
 
 <br>
 
-**Goodluck! Jangan lupa tidur yaaa**
+**Baca speknya yang teliti guys, banyak constraint soalnya. Goodluck! Jangan lupa tidur yaaa**
