@@ -64,8 +64,8 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
 
 8. Informasi tambahan: 
     - Jangan lupa untuk menampilkan informasi-informasi penting seperti panjang password yang ada di textfield.
-    - Jika proses pencarian pola dianggap terlalu lama, upaya optimasi sangat direkomendasikan.
     - Mekanisme pencarian pola tidak boleh menggunakan submit button. Cobalah untuk mencari cara agar proses pengecekan selalu up-to-date, dengan tetap memperhatikan dan mempertimbangkan performance dari program kalian.
+    - Jika proses pencarian pola dianggap terlalu lama, upaya optimasi sangat direkomendasikan. Metode optimasi yang digunakan sangat dibebaskan kepada anda, tidak harus menggunakan multithreading atau semacamnya. Pastikan bahwa metode optimasi yang digunakan tidak mengurangi kualitas dari program yang dibuat.
 
 
 ### Fitur Lanjutan (max 750 Poin)
