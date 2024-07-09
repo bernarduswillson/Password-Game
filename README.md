@@ -1,7 +1,7 @@
 # The Password Game
 > Task Seleksi Lab IRK created by bewe
 
-versi 7 Juli 2024
+versi 9 Juli 2024
 
 ## 💡 Latar Belakang
 Dalam era digital saat ini, keamanan informasi pribadi semakin menjadi perhatian utama. Salah satu aspek penting dalam menjaga keamanan informasi adalah menggunakan kata sandi yang kuat dan sulit ditebak. Demi mengedukasi dan menghibur penggunanya sekaligus, "Password Game" hadir sebagai solusi yang menarik. Game ini menantang pemain untuk membuat atau menentukan kata sandi yang rumit sesuai dengan ketentuan yang diminta. Namun, game ini masih memiliki beberapa kekurangan dan memiliki potensi yang besar untuk dikembangkan. Beberapa aspek yang harus ditangani adalah seperti kurangnya keanekaragaman kata sandi, waktu tunggu yang tidak efektif, ketidakjelasan petunjuk dan feedback, pengembangan sistem skor dan peringkat yang kurang komprehensif, tampilan yang kurang menarik, dan masih banyak lagi.
@@ -56,7 +56,7 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
 
 4. Pemain dapat dinyatakan kalah jika pemain sudah tidak memiliki satupun opsi jawaban atau tidak ada jawaban yang dapat memenuhi ketentuan pada current rule, algoritma pencarian opsi dibebaskan. Selain itu, kondisi kalah juga dapat terjadi pada kasus-kasus unik seperti rule 11 dan rule 14. Sedangkan, pemain dapat dinyatakan menang jika pemain telah memenuhi semua rule (20 rule).
 
-5. Program harus memiliki perintah cheat untuk membenarkan semua rules yang masih salah. Namun, anda juga harus memberikan salah satu opsi jawaban agar semua rules tersebut terpenuhi. Anda dapat menggunakan command tersebut dengan mengetik “cheat” pada textfield, kemudian akan secara otomatis menghapus dan mengganti kata-kata “cheat” tersebut menjadi salah satu opsi jawaban yang tersedia. Jawaban harus melanjutkan password yang telah dibuat pemain pada rules sebelumnya, tidak boleh membuat password dari awal. Namun, jika ternyata sudah tidak ada opsi jawaban yang tersedia, anda diperbolehkan untuk mengganti password dari rule-rule sebelumnya dari rule yang paling tinggi. Misal: rule 18 tidak ada opsi jawaban, maka anda boleh mengganti password pada rule 17. Untuk kasus-kasus unik seperti pada rule 11 dan 14, buat agar rule-rule tersebut sudah tidak berlaku lagi, pastikan pemain tidak dapat kalah ketika melanggar rule-rule tersebut. Kemudian untuk rule 10, anda harus menghapus semua emoji api dan memastikan emoji api tidak akan keluar lagi. Metode dan algoritma pencarian jawaban dibebaskan. 
+5. Program harus memiliki perintah cheat untuk membenarkan semua rules yang masih salah. Namun, anda juga harus memberikan salah satu opsi jawaban agar semua rules tersebut terpenuhi. Anda dapat menggunakan command tersebut dengan mengetik “cheat” pada textfield, kemudian akan secara otomatis menghapus dan mengganti kata-kata “cheat” tersebut menjadi salah satu opsi jawaban yang tersedia. Jawaban harus melanjutkan password yang telah dibuat pemain pada rules sebelumnya, tidak boleh membuat password dari awal. Namun, jika ternyata sudah tidak ada opsi jawaban yang tersedia, anda diperbolehkan untuk mengganti password dari rule-rule sebelumnya dari rule yang paling tinggi. Misal: rule 18 tidak ada opsi jawaban, maka anda boleh mengganti password pada rule 17. Untuk kasus-kasus unik seperti pada rule 11 dan 14, buatlah agar rule-rule tersebut sudah tidak berlaku lagi, pastikan pemain tidak dapat kalah ketika melanggar rule-rule tersebut. Kemudian untuk rule 10, anda harus menghapus semua emoji api dan memastikan emoji api tidak akan keluar lagi. Metode dan algoritma pencarian jawaban dibebaskan. 
 
 6. Terdapat sistem scoring yang sistem perhitungannya dibebaskan kepada anda. Dapat berdasarkan waktu pengerjaan, kualitas password, atau bahkan kombinasi dari keduanya, dan masih banyak opsi lain. Jika anda menggunakan waktu, pastikan waktu tidak dapat dimanipulasi oleh pengguna secara local. Score tersebut harus ditampilkan sepanjang permainan dan selalu ter-update. Jika pemain sudah dalam kondisi kalah atau menang, tampilkan score final yang didapat, secara bersamaan tampilkan juga highest score yang pernah didapat pemain.
 
@@ -79,7 +79,7 @@ Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau
 
 5. Penggunaan docker untuk backend dan frontend. Pastikan program dapat berjalan dengan baik pada docker.
 
-6. Deployment aplikasi (backend dan frontend) sehingga dapat diakses dan dimainkan pada web. Docker wajib digunakan pada saat deployment. 
+6. Deployment aplikasi (backend dan frontend) sehingga dapat diakses dan dimainkan pada web. Docker wajib digunakan pada saat deployment jika anda mengerjakan fitur lanjutan nomor 5.
 
 7. Membuat global leaderboard. Global leaderboard akan berisi highest score setiap pemain yang berbeda. 1 device/client dapat dianggap sebagai 1 pemain. Anda juga boleh membedakan pemain dengan menggunakan username atau semacamnya.
 
