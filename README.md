@@ -1,7 +1,7 @@
 # The Password Game
 > Task Seleksi Lab IRK created by bewe
 
-versi 9 Juli 2024
+versi 12 Juli 2024
 
 ## 💡 Latar Belakang
 Dalam era digital saat ini, keamanan informasi pribadi semakin menjadi perhatian utama. Salah satu aspek penting dalam menjaga keamanan informasi adalah menggunakan kata sandi yang kuat dan sulit ditebak. Demi mengedukasi dan menghibur penggunanya sekaligus, "Password Game" hadir sebagai solusi yang menarik. Game ini menantang pemain untuk membuat atau menentukan kata sandi yang rumit sesuai dengan ketentuan yang diminta. Namun, game ini masih memiliki beberapa kekurangan dan memiliki potensi yang besar untuk dikembangkan. Beberapa aspek yang harus ditangani adalah seperti kurangnya keanekaragaman kata sandi, waktu tunggu yang tidak efektif, ketidakjelasan petunjuk dan feedback, pengembangan sistem skor dan peringkat yang kurang komprehensif, tampilan yang kurang menarik, dan masih banyak lagi.
@@ -21,8 +21,7 @@ Sebelum mulai mengerjakan, sangat direkomendasikan untuk mencoba dan memahami pe
 Dalam tugas besar ini, Anda diminta untuk membuat sebuah game yang mirip dengan “Password Game” berbentuk website. Anda harus mengerjakan semua poin fitur wajib (8) dan minimal 2 fitur lanjutan. Jika anda mengerjakan lebih dari 2 fitur lanjutan, maka fitur-fitur tersebut akan dihitung sebagai bonus. Maksimal fitur lanjutan yang dapat dihitung adalah 5 fitur lanjutan.
 
 ### Fitur Wajib (2250 Poin)
-1. Algoritma yang digunakan untuk pencocokan pola string adalah regex, Knuth-Morris-Pratt (KMP), dan Boyer-Moore (BM). <br>
-Catatan: Program memiliki toggle button, dapat memilih antara algoritma KMP atau BM untuk pencocokan string. 
+1. Algoritma yang digunakan untuk pencocokan pola string wajib menggunakan regex, Knuth-Morris-Pratt (KMP), atau Boyer-Moore (BM). Anda boleh menggunakan salah satu atau kombinasi dari ketiga algoritma tersebut.
 
 2. Seperti dengan cara kerja game aslinya, rule yang diminta untuk membentuk sebuah password akan bertambah satu-persatu seiring dengan password yang sudah sesuai dengan rule (misal rule 1 sudah terpenuhi, maka rule 2 akan muncul, dan seterusnya, dengan catatan rule 1 masih berlaku). Jika password tidak sesuai dengan rules yang berlaku, tampilkan pesan bahwa rule tersebut salah. Tampilkan juga letak kesalahan password ketika password tidak sesuai dengan rule yang ada (seperti gambar Fig 1, huruf atau angka yang salah diberi highlight berwarna merah).
 
